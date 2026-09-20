@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HPL Admin Panel</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+<div id="loginBox" class="login-box">
+  <div class="logo">🏏</div>
+  <h1>HPL ADMIN</h1>
+  <p>Hand Cricket Premier League</p>
+
+  <input id="email" type="email" placeholder="Admin Email">
+  <input id="password" type="password" placeholder="Password">
+
+  <button id="loginBtn">LOGIN</button>
+
+  <div id="loginMsg"></div>
+</div>
+
+
+<div id="adminPanel" class="admin-panel" style="display:none">
+
+  <header>
+    <div>
+      <h1>🏏 HPL ADMIN PANEL</h1>
+      <p>Season 11 Management</p>
+    </div>
+
+    <button id="logoutBtn">Logout</button>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="dashboard">Dashboard</button>
+    <button class="tab" data-tab="teams">Teams</button>
+    <button class="tab" data-tab="players">Players</button>
+    <button class="tab" data-tab="matches">Matches</button>
+    <button class="tab" data-tab="points">Points Table</button>
+    <button class="tab" data-tab="scorecards">Scorecards</button>
+  </nav>
+
+
+  <main>
+
+    <!-- DASHBOARD -->
+    <section id="dashboard" class="page active">
+      <h2>Dashboard</h2>
+
+      <div class="cards">
+        <div class="card">
+          <span>Teams</span>
+          <strong id="teamCount">0</strong>
+        </div>
+
+        <div class="card">
+          <span>Players</span>
+          <strong id="playerCount">0</strong>
+        </div>
+
+        <div class="card">
+          <span>Matches</span>
+          <strong id="matchCount">0</strong>
+        </div>
+      </div>
+
+      <div class="publish">
+        <h3>Firebase Database</h3>
+        <p>
+          HPL data is stored in Firestore. Use the sections above
+          to manage your league.
+        </p>
+
+        <button id="loadBtn">LOAD DATA</button>
+        <button id="saveBtn">SAVE DATA</button>
+
+        <div id="status"></div>
+      </div>
+    </section>
+
+
+    <!-- TEAMS -->
+    <section id="teams" class="page">
+
+      <h2>Teams</h2>
+
+      <div id="teamsList"></div>
+
+      <div class="editor">
+        <h3>Add / Edit Team</h3>
+
+        <input id="teamName" placeholder="Team Name">
+        <input id="teamLogo" placeholder="Logo path">
+        <input id="teamCaptain" placeholder="Captain">
+        <input id="teamGround" placeholder="Ground">
+
+        <button id="addTeam">SAVE TEAM</button>
+      </div>
+
+    </section>
+
+
+    <!-- PLAYERS -->
+    <section id="players" class="page">
+
+      <h2>Players</h2>
+
+      <div id="playersList"></div>
+
+      <div class="editor">
+
+        <h3>Add Player</h3>
+
+        <input id="playerName" placeholder="Full Name">
+        <input id="playerShort" placeholder="Short Name">
+        <input id="playerTeam" placeholder="Team">
+        <input id="playerPlace" placeholder="Place">
+        <input id="playerRole" placeholder="Role">
+        <input id="playerBatting" placeholder="Batting Style">
+        <input id="playerBowling" placeholder="Bowling Style">
+        <input id="playerNumber" placeholder="Jersey Number">
+
+        <button id="addPlayer">SAVE PLAYER</button>
+
+      </div>
+
+    </section>
+
+
+    <!-- MATCHES -->
+    <section id="matches" class="page">
+
+      <h2>Matches</h2>
+
+      <div id="matchesList"></div>
+
+      <div class="editor">
+
+        <h3>Add Match</h3>
+
+        <input id="matchId" type="number" placeholder="Match Number">
+        <input id="matchHome" placeholder="Team 1">
+        <input id="matchAway" placeholder="Team 2">
+        <input id="matchHomeScore" placeholder="Team 1 Score">
+        <input id="matchAwayScore" placeholder="Team 2 Score">
+        <input id="matchResult" placeholder="Result">
+        <input id="matchGround" placeholder="Ground">
+
+        <button id="addMatch">SAVE MATCH</button>
+
+      </div>
+
+    </section>
+
+
+    <!-- POINTS -->
+    <section id="points" class="page">
+
+      <h2>Points Table</h2>
+
+      <div id="pointsList"></div>
+
+      <div class="editor">
+
+        <input id="pointsTeam" placeholder="Team">
+        <input id="played" type="number" placeholder="Played">
+        <input id="won" type="number" placeholder="Won">
+        <input id="lost" type="number" placeholder="Lost">
+        <input id="pointsValue" type="number" placeholder="Points">
+
+        <button id="addPoints">SAVE POINTS</button>
+
+      </div>
+
+    </section>
+
+
+    <!-- SCORECARDS -->
+    <section id="scorecards" class="page">
+
+      <h2>Scorecards</h2>
+
+      <p>
+        Scorecard data can be edited here using JSON.
+      </p>
+
+      <textarea id="scorecardJSON" rows="20"
+        placeholder='Example:
+{
+  "1": {
+    "h": [],
+    "a": []
+  }
+}'></textarea>
+
+      <button id="saveScorecards">SAVE SCORECARDS</button>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
