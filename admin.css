@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #06150e;
+  color: #ffffff;
+}
+
+/* ================= LOGIN ================= */
+
+#loginBox {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #06150e;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  background: #0c2418;
+  border: 1px solid #245c3b;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.login-card h1 {
+  margin: 0 0 8px;
+  text-align: center;
+  color: #65ff9b;
+}
+
+.login-card p {
+  text-align: center;
+  color: #9db5a5;
+  margin-bottom: 25px;
+}
+
+.login-card label {
+  display: block;
+  margin-top: 10px;
+  color: #c8d8ce;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 13px;
+  margin: 7px 0 14px;
+  border: 1px solid #285b40;
+  border-radius: 10px;
+  background: #071a11;
+  color: #ffffff;
+  font-size: 15px;
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #35e879;
+}
+
+textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #159447;
+  color: white;
+}
+
+.btn:hover {
+  background: #20b957;
+}
+
+.btn-danger {
+  background: #b62b2b;
+}
+
+.btn-danger:hover {
+  background: #d63b3b;
+}
+
+#loginMsg {
+  margin-top: 12px;
+  color: #ff7777;
+}
+
+/* ================= ADMIN ================= */
+
+#adminPanel {
+  min-height: 100vh;
+  background: #06150e;
+}
+
+header {
+  background: #071b11;
+  color: white;
+  padding: 18px 20px;
+  border-bottom: 1px solid #1e5738;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.brand h1 {
+  margin: 0;
+  color: #65ff9b;
+  font-size: 24px;
+}
+
+.brand span {
+  color: #9db5a5;
+  font-size: 13px;
+}
+
+#logoutBtn {
+  background: #b62b2b;
+  color: white;
+  padding: 11px 18px;
+  border-radius: 9px;
+}
+
+/* ================= TABS ================= */
+
+.tabs {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 14px 10px;
+  background: #06150e;
+}
+
+.tab {
+  white-space: nowrap;
+  padding: 11px 16px;
+  border-radius: 9px;
+  background: #0d291a;
+  color: #b7c9bd;
+  border: 1px solid #245c3b;
+}
+
+.tab.active {
+  background: #159447;
+  color: white;
+}
+
+/* ================= MAIN ================= */
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+/* ================= CARDS ================= */
+
+.card {
+  background: #0b2116;
+  border: 1px solid #194c31;
+  padding: 22px;
+  margin-bottom: 18px;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+.card h2,
+.card h3 {
+  color: #65ff9b;
+  margin-top: 0;
+}
+
+.help {
+  color: #9db5a5;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* ================= DASHBOARD ================= */
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.stat {
+  background: #0d291a;
+  border: 1px solid #1c5737;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  color: #b7c9bd;
+}
+
+.stat strong {
+  display: block;
+  color: #65ff9b;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+/* ================= GRID ================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+/* ================= LIST ================= */
+
+.list {
+  margin-top: 15px;
+}
+
+.item {
+  background: #081b11;
+  border: 1px solid #19452f;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.item strong {
+  color: #65ff9b;
+}
+
+.delete {
+  background: #b62b2b;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 7px;
+}
+
+/* ================= STATUS ================= */
+
+#status {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 0 20px;
+  color: #65ff9b;
+  font-weight: bold;
+}
+
+/* ================= SCORECARD ================= */
+
+#scorecardJSON {
+  min-height: 400px;
+  font-family: monospace;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 700px) {
+
+  .header-inner {
+    align-items: flex-start;
+  }
+
+  .brand h1 {
+    font-size: 20px;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .tabs {
+    justify-content: flex-start;
+  }
+    }
