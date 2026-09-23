@@ -3,7 +3,7 @@ teams:[
 {name:'Royal Kings',logo:'royal-kings.png',captain:'Sanjay',ground:'M. Chinnaswamy Stadium, Bengaluru'},
 {name:'Titans',logo:'titans.png',captain:'Yashas',ground:'Narendra Modi Stadium, Ahmedabad'},
 {name:'Chasers',logo:'chasers.png',captain:'Likith',ground:'Rajiv Gandhi International Cricket Stadium, Hyderabad'},
-{name:'Stars',logo:'stars.png',captain:'Karan',ground:'Rajasthan International Stadium, Jaipur'}],
+{name:'Stars',logo:'stars.png',captain:'Karan',ground:'Sawai Mansingh Stadium, International Stadium, Jaipur'}],
 players:[
 ['Sanjay B R','Sanjay','Royal Kings','Mandya, Karnataka','All-Rounder','Right-Hand Batsman','Right-Arm Fast Bowler','02',1,4,402,1,206,0,1],
 ['Darshan','Darshan','Royal Kings','Tumkur, Karnataka','All-Rounder','Right-Hand Batsman','Right-Arm Off-Spin','46',0,4,42,17,38,0,0],
@@ -43,7 +43,7 @@ matches:[
 [3,'Royal Kings','Chasers','224/5','230/4','Chasers won by 1 wicket','M. Chinnaswamy Stadium, Bengaluru'],
 [4,'Titans','Royal Kings','251/5','135/5','Titans won by 116 runs','Narendra Modi Stadium, Ahmedabad'],
 [5,'Titans','Stars','34/5','39/1','Stars won by 4 wickets','Narendra Modi Stadium, Ahmedabad'],
-[6,'Stars','Chasers','170/5','238/5','Chasers won by 68 runs','Rajasthan International Stadium, Jaipur'],
+[6,'Stars','Chasers','170/5','238/5','Chasers won by 68 runs','Sawai Mansingh International Stadium, Jaipur'],
 [7,'Royal Kings','Stars','240/2','235/3','Royal Kings won by 3 wickets','M. Chinnaswamy Stadium, Bengaluru']],
 scorecards:{
 1:{h:[['S. Gill',65,0],['Vishnu',16,0],['Yashas',11,0],['Sai',40,0],['Manav Suthar',0,4]],a:[['J. Root',29,0],['P.K.',70,0],['Likith',21,0],['Rahane',49,0],['Vaibhav',20,3]]},
