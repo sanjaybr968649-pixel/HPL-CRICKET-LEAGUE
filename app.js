@@ -1,9 +1,9 @@
 const FALLBACK_HPL={
 teams:[
-{name:'Royal Kings',logo:'assets/royal-kings.svg',captain:'Sanjay',ground:'M. Chinnaswamy Stadium, Bengaluru'},
-{name:'Titans',logo:'assets/titans.svg',captain:'Yashas',ground:'Narendra Modi Stadium, Ahmedabad'},
-{name:'Chesara',logo:'assets/chesara.svg',captain:'Likith',ground:'Rajiv Gandhi International Cricket Stadium, Hyderabad'},
-{name:'Stars',logo:'assets/stars.svg',captain:'Karan',ground:'Rajasthan International Stadium, Jaipur'}],
+{name:'Royal Kings',logo:'assets/royal-kings.png',captain:'Sanjay',ground:'M. Chinnaswamy Stadium, Bengaluru'},
+{name:'Titans',logo:'assets/titans.png',captain:'Yashas',ground:'Narendra Modi Stadium, Ahmedabad'},
+{name:'Chesara',logo:'assets/chesara.png',captain:'Likith',ground:'Rajiv Gandhi International Cricket Stadium, Hyderabad'},
+{name:'Stars',logo:'assets/stars.png',captain:'Karan',ground:'Rajasthan International Stadium, Jaipur'}],
 players:[
 ['Sanjay B R','Sanjay','Royal Kings','Mandya, Karnataka','All-Rounder','Right-Hand Batsman','Right-Arm Fast Bowler','02',1,4,402,1,206,0,1],
 ['Darshan','Darshan','Royal Kings','Tumkur, Karnataka','All-Rounder','Right-Hand Batsman','Right-Arm Off-Spin','46',0,4,42,17,38,0,0],
