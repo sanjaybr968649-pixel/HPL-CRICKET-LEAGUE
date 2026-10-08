@@ -1,0 +1,731 @@
+{
+  "league": "HAND CRICKET PREMIER LEAGUE",
+  "short": "HPL",
+  "season": 11,
+  "teams": [
+    {
+      "id": "royal-kings",
+      "name": "Royal Kings",
+      "logo": "assets/royal-kings.png",
+      "ground": "M. Chinnaswamy Stadium, Bengaluru",
+      "captain": "Sanjay"
+    },
+    {
+      "id": "titans",
+      "name": "Titans",
+      "logo": "assets/titans.png",
+      "ground": "Narendra Modi Stadium, Ahmedabad",
+      "captain": "Yashas"
+    },
+    {
+      "id": "chasers",
+      "name": "Chasers",
+      "logo": "assets/chasers.png",
+      "ground": "Rajiv Gandhi International Cricket Stadium, Hyderabad",
+      "captain": "Likith"
+    },
+    {
+      "id": "stars",
+      "name": "Stars",
+      "logo": "assets/stars.png",
+      "ground": "Rajasthan International Stadium, Jaipur",
+      "captain": "Karan"
+    }
+  ],
+  "matches": [],
+  "hplBatting": [
+    {
+      "name": "Yashas",
+      "matches": 112,
+      "runs": 7025,
+      "avg": 103.3,
+      "fifties": 26,
+      "hundreds": 25,
+      "best": 307
+    },
+    {
+      "name": "Sanjay",
+      "matches": 110,
+      "runs": 6284,
+      "avg": 69.0,
+      "fifties": 25,
+      "hundreds": 22,
+      "best": 247
+    },
+    {
+      "name": "Likith",
+      "matches": 115,
+      "runs": 6266,
+      "avg": 66.6,
+      "fifties": 18,
+      "hundreds": 19,
+      "best": 386
+    },
+    {
+      "name": "Darshan",
+      "matches": 111,
+      "runs": 5638,
+      "avg": 67.1,
+      "fifties": 25,
+      "hundreds": 17,
+      "best": 318
+    },
+    {
+      "name": "Vishnu",
+      "matches": 95,
+      "runs": 4335,
+      "avg": 51.6,
+      "fifties": 18,
+      "hundreds": 17,
+      "best": 238
+    }
+  ],
+  "players": [
+    {
+      "name": "Sanjay B R",
+      "place": "Mandya, Karnataka",
+      "role": "All-Rounder",
+      "batting": "Right Hand Batsman",
+      "bowling": "Right Arm Fast Bowler",
+      "jersey": "02",
+      "captain": true,
+      "local": true,
+      "id": "sanjay-b-r",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": {
+        "matches": 110,
+        "runs": 6284,
+        "avg": 69.0,
+        "fifties": 25,
+        "hundreds": 22,
+        "best": 247
+      },
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Darshan",
+      "place": "Tumkur, Karnataka",
+      "role": "All-Rounder",
+      "batting": "Right-Hand Batsman",
+      "bowling": "Right-Arm Off-Spin",
+      "jersey": "46",
+      "local": true,
+      "id": "darshan",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": {
+        "matches": 111,
+        "runs": 5638,
+        "avg": 67.1,
+        "fifties": 25,
+        "hundreds": 17,
+        "best": 318
+      },
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Yashas",
+      "place": "Tumkur, Karnataka",
+      "role": "All-Rounder",
+      "batting": "Right-Hand Batsman",
+      "bowling": "Right-Arm Medium-Fast Bowler",
+      "jersey": "07",
+      "captain": true,
+      "local": true,
+      "id": "yashas",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": {
+        "matches": 112,
+        "runs": 7025,
+        "avg": 103.3,
+        "fifties": 26,
+        "hundreds": 25,
+        "best": 307
+      },
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Vishnu",
+      "place": "Chitradurga, Karnataka",
+      "role": "Batsman",
+      "batting": "Right-Hand Batsman",
+      "bowling": "Right-Arm Fast-Medium Bowler",
+      "jersey": "18",
+      "local": true,
+      "id": "vishnu",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": {
+        "matches": 95,
+        "runs": 4335,
+        "avg": 51.6,
+        "fifties": 18,
+        "hundreds": 17,
+        "best": 238
+      },
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Likith",
+      "place": "Hassan, Karnataka",
+      "role": "All-Rounder",
+      "batting": "Right-Hand Batsman",
+      "bowling": "Right-Arm Fast Bowler",
+      "jersey": "18",
+      "captain": true,
+      "local": true,
+      "id": "likith",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": {
+        "matches": 115,
+        "runs": 6266,
+        "avg": 66.6,
+        "fifties": 18,
+        "hundreds": 19,
+        "best": 386
+      },
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Prajwal P.K.",
+      "place": "Bagalkot, Karnataka",
+      "role": "Batsman",
+      "batting": "Right-Hand Batsman",
+      "bowling": "Right-Arm Medium-Pace Bowler",
+      "jersey": "06",
+      "local": true,
+      "id": "prajwal-p-k",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Karan",
+      "place": "Rajasthan",
+      "role": "All-Rounder",
+      "batting": "Left-Hand Batsman",
+      "bowling": "Left-Arm Fast Bowler",
+      "jersey": "12",
+      "captain": true,
+      "local": true,
+      "id": "karan",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Mohit",
+      "place": "Bihar",
+      "role": "Batsman",
+      "batting": "Right-Hand Batsman",
+      "bowling": "Right-Arm Off-Spinner",
+      "jersey": "44",
+      "local": true,
+      "id": "mohit",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Sai",
+      "local": true,
+      "id": "sai",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Vaibhav",
+      "local": true,
+      "id": "vaibhav",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Shubman Gill",
+      "country": "India",
+      "local": false,
+      "id": "shubman-gill",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": 4598,
+        "seasonThrough": 2026,
+        "source": "IPL career leaderboard / player career stats"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Manav Suthar",
+      "country": "India",
+      "local": false,
+      "id": "manav-suthar",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Phil Salt",
+      "country": "England",
+      "local": false,
+      "id": "phil-salt",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Angkrish Raghuvanshi",
+      "country": "India",
+      "local": false,
+      "id": "angkrish-raghuvanshi",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Prince Yadav",
+      "country": "India",
+      "local": false,
+      "id": "prince-yadav",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Jacob Bethell",
+      "country": "England",
+      "local": false,
+      "id": "jacob-bethell",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": 163,
+        "seasonThrough": 2026,
+        "source": "IPL career leaderboard / player career stats"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Jordan Cox",
+      "country": "England",
+      "local": false,
+      "id": "jordan-cox",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "local": false,
+      "id": "jasprit-bumrah",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Bhuvneshwar Kumar",
+      "country": "India",
+      "local": false,
+      "id": "bhuvneshwar-kumar",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "local": false,
+      "id": "rashid-khan",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Rajat Patidar",
+      "country": "India",
+      "local": false,
+      "id": "rajat-patidar",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Joe Root",
+      "country": "England",
+      "local": false,
+      "id": "joe-root",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Steve Smith",
+      "country": "Australia",
+      "local": false,
+      "id": "steve-smith",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Ajinkya Rahane",
+      "country": "India",
+      "local": false,
+      "id": "ajinkya-rahane",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": 5247,
+        "seasonThrough": 2026,
+        "source": "IPL career leaderboard / player career stats"
+      },
+      "photo": ""
+    },
+    {
+      "name": "MS Dhoni",
+      "country": "India",
+      "local": false,
+      "id": "ms-dhoni",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": 5047,
+        "seasonThrough": 2026,
+        "source": "IPL career leaderboard / player career stats"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Umesh Yadav",
+      "country": "India",
+      "local": false,
+      "id": "umesh-yadav",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Kagiso Rabada",
+      "country": "South Africa",
+      "local": false,
+      "id": "kagiso-rabada",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Mohammed Siraj",
+      "country": "India",
+      "local": false,
+      "id": "mohammed-siraj",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Ryan Rickelton",
+      "country": "South Africa",
+      "local": false,
+      "id": "ryan-rickelton",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Ben Mayers",
+      "country": "England",
+      "local": false,
+      "id": "ben-mayers",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Yashraj Punja",
+      "country": "India",
+      "local": false,
+      "id": "yashraj-punja",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": null,
+        "seasonThrough": null,
+        "source": "Needs verified career total"
+      },
+      "photo": ""
+    },
+    {
+      "name": "Shreyas Iyer",
+      "country": "India",
+      "local": false,
+      "id": "shreyas-iyer",
+      "season11": {
+        "runs": 0,
+        "wickets": 0
+      },
+      "career": {},
+      "hplCareer": null,
+      "iplCareer": {
+        "runs": 4229,
+        "seasonThrough": 2026,
+        "source": "IPL career leaderboard / player career stats"
+      },
+      "photo": ""
+    }
+  ],
+  "points": []
+}
